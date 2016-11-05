@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="{{ site.language }}">
+  <head>
+    {% include head.html %}
+
+    <!--
+      You enjoy inspecting the sourcecode of my websites?
+      Why do you not follow me on Github and review some of my projects?
+      https://github.com/codebucketdev
+    -->
+
+    {% include favicons.html %}
+    {% include twittercard.html %}
+    {% include opengraph.html %}
+    {% include styles.html %}
+  </head>
+	<body id="top">
+    <!-- Header -->
+		{% include header.html %}
+		<!-- Main -->
+    <div id="main">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+	</body>
+</html>

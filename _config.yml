@@ -1,0 +1,31 @@
+# Site settings
+title: Codebucket
+tagline: "Programmierung seit 2009"
+description:
+- "**I am Codebucket**."
+- "16 years old, Java/PHP/JS Developer at Codebucket.de, Owner and Hoster of Razex.de."
+author: Codebucket
+keywords: "codebucket, tech, blog"
+language: en
+copyright: "2013-2016 Codebucket"
+sass:
+  sass_dir: assets/sass
+url: http://www.codebucket.de/blog
+baseurl: ""
+
+# Social media
+disqus_shortname: codebucketblog
+facebook_username: codebucketdev
+twitter_username: codebucketdev
+linkedin_username:
+instagram_username:
+pinterest_username:
+flickr_username:
+github_username: codebucketdev
+feed_icon: rss
+email:
+
+# Gems
+gems: [jekyll-paginate]
+paginate_path: "/page/:num/"
+paginate: 5
