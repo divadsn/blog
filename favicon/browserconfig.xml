@@ -1,0 +1,17 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="{{ site.github.url }}/favicon/mstile-70x70.png"/>
+      <square150x150logo src="{{ site.github.url }}/favicon/mstile-150x150.png"/>
+      <square310x310logo src="{{ site.github.url }}/favicon/mstile-310x310.png"/>
+      <wide310x150logo src="{{ site.github.url }}/favicon/mstile-310x150.png"/>
+      <TileColor>#ffffff</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
