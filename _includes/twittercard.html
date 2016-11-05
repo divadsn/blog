@@ -3,7 +3,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:url" content="{{site.github.url }}{{ page.url }}" />
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | truncate: 70 }}{% else %}{{ site.title | append:' - ' | append:site.tagline | truncate: 70 }}{% endif %}" />
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}{{ site.tagline | strip_html | truncate: 200 }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}{{ site.description | join:' ' | strip_html | truncate: 200 }}{% endif %}" />
 <meta name="twitter:image" content="{% if page.image %}{{site.github.url }}{{ page.image }}{% else %}{{site.github.url }}/images/avatar.jpg{% endif %}" />
 {% if page.image == nil  %}
 <meta name="twitter:image:width" content="200" />

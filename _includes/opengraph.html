@@ -1,6 +1,6 @@
 <!-- og -->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | append:' - ' | append:site.tagline }}{% endif %}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.tagline | strip_html }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | join:' ' | strip_html }}{% endif %}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{site.github.url }}{{ page.url }}" />
 <meta property="og:image" content="{% if page.image %}{{site.github.url }}{{ page.image }}{% else %}{{site.github.url }}/images/avatar.jpg{% endif %}" />
