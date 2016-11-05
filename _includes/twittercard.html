@@ -5,7 +5,7 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | truncate: 70 }}{% else %}{{ site.title | append:' - ' | append:site.tagline | truncate: 70 }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}{{ site.tagline | strip_html | truncate: 200 }}{% endif %}" />
 <meta name="twitter:image" content="{% if page.image %}{{site.github.url }}{{ page.image }}{% else %}{{site.github.url }}/images/avatar.jpg{% endif %}" />
-{% if page.image == blank  %}
+{% if page.image == nil  %}
 <meta name="twitter:image:width" content="200" />
 <meta name="twitter:image:height" content="200" />
 {% endif %}
