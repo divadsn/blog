@@ -1,17 +1,29 @@
+# Jekyll
+language: en
+date_format: ordinal
+sass:
+  sass_dir: assets/sass
+  style: compressed
+url: http://www.codebucket.de/blog
+baseurl: ""
+timezone: Europe/Warsaw
+encoding: "utf-8"
+
 # Site settings
 title: Codebucket
 tagline: "Programmierung seit 2009"
 description:
-- "**I am Codebucket**."
-- "16 years old, Java/PHP/JS Developer at Codebucket.de, Owner and Hoster of Razex.de."
+  - "**I am Codebucket**."
+  - "16 years old, Java/PHP/JS Developer at Codebucket.de, Owner and Hoster of Razex.de."
 author: Codebucket
 keywords: "Codebucket, Computer, Java, PHP, JS, Developer, Codebucket.de, Jekyll, Blog, Cracow, Poland, Cloud, Productivity, GitHub, Open Source, Hosting, Razex.de"
-language: en
 copyright: "2013-2016 Codebucket"
-sass:
-  sass_dir: assets/sass
-url: http://www.codebucket.de/blog
-baseurl: ""
+
+# Sitemap settings
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
 
 # Social media
 disqus_shortname: codebucketblog
@@ -25,7 +37,20 @@ github_username: codebucketdev
 feed_icon: rss
 email:
 
-# Gems
-gems: [jekyll-paginate]
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
 paginate_path: "/page/:num/"
 paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","LICENSE"]
+
+# Gems
+gems:
+  - jekyll-github-metadata
+  - rouge
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
