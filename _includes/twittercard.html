@@ -1,10 +1,10 @@
 {% if site.twitter_username %}
 <!-- Twitter card -->
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:url" content="{{site.github.url }}{{ page.url }}" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title | truncate: 70 }}{% else %}{{ site.title | append:' - ' | append:site.tagline | truncate: 70 }}{% endif %}" />
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 200 }}{% else %}{{ site.description | join:' ' | markdownify | strip_html | truncate: 200 }}{% endif %}" />
-<meta name="twitter:image" content="{% if page.image %}{{site.github.url }}{{ page.image }}{% else %}{{site.github.url }}/images/avatar.jpg{% endif %}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | append:' - ' | append:site.tagline }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | join:' ' | markdownify | strip_html | strip_newlines }}{% endif %}" />
+<meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ "/images/avatar.jpg" | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
 {% if page.image == nil  %}
 <meta name="twitter:image:width" content="200" />
 <meta name="twitter:image:height" content="200" />

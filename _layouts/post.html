@@ -2,6 +2,7 @@
 <html lang="{{ site.language }}">
   <head>
     {% include head.html %}
+    {% include favicons.html %}
 
     <!--
       You enjoy inspecting the sourcecode of my websites?
@@ -9,9 +10,9 @@
       https://github.com/codebucketdev
     -->
 
-    {% include favicons.html %}
     {% include twittercard.html %}
     {% include opengraph.html %}
+    {% include standard.html %}
     {% include styles.html %}
   </head>
 	<body id="top">
@@ -38,14 +39,14 @@
         <article class="6u 12u$(xsmall) work-item">
           {% if page.previous.url %}
           <p>Previous</p>
-  				<h3><a href="{{ page.previous.url }}">{{page.previous.title}}</a></h3>
+  				<h3><a href="{{ page.previous.url | prepend: site.baseurl }}">{{page.previous.title}}</a></h3>
   				<p>{{ page.previous.excerpt | strip_html }}</p>
           {% endif %}
   			</article>
   			<article class="6u$ 12u$(xsmall) work-item">
           {% if page.next.url %}
           <p>Next</p>
-  				<h3><a href="{{ page.next.url }}">{{page.next.title}}</a></h3>
+  				<h3><a href="{{ page.next.url | prepend: site.baseurl }}">{{page.next.title}}</a></h3>
   				<p>{{ page.next.excerpt | strip_html }}</p>
           {% endif %}
   			</article>

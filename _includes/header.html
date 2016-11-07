@@ -1,8 +1,7 @@
 <!-- Header -->
 <header id="header">
-  <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/avatar.jpg" alt="Avatar" /></a>
-  {% capture header %}{{ site.description[0] }}{% endcapture %}
-  <h1>{{ header | markdownify | remove: '<p>' | remove: '</p>' }}
+  <a href="{{ site.baseurl }}/" class="image avatar"><img src="{{ "/images/avatar.jpg" | prepend: site.baseurl }}" alt="Avatar" /></a>
+  <h1>{{ site.description | first | markdownify | remove: '<p>' | remove: '</p>' }}
   {% for description in site.description offset: 1 %}
   <div style="font-size: 90%">{{ description | markdownify | remove: '<p>' | remove: '</p>' }}</div></h1>
   {% endfor %}

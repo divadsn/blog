@@ -2,6 +2,7 @@
 <html lang="{{ site.language }}">
   <head>
     {% include head.html %}
+    {% include favicons.html %}
 
     <!--
       You enjoy inspecting the sourcecode of my websites?
@@ -9,19 +10,19 @@
       https://github.com/codebucketdev
     -->
 
-    {% include favicons.html %}
     {% include twittercard.html %}
     {% include opengraph.html %}
+    {% include standard.html %}
     {% include styles.html %}
   </head>
-	<body id="top">
+  <body id="top">
     <!-- Header -->
-		{% include header.html %}
-		<!-- Main -->
+    {% include header.html %}
+    <!-- Main -->
     <div id="main">
       {{ content }}
     </div>
     {% include footer.html %}
     {% include scripts.html %}
-	</body>
+  </body>
 </html>
