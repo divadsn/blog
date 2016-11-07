@@ -8,8 +8,10 @@ layout: default
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
   <div class="work-item"><i class="fa fa-calendar"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</div>
-  <p>{{ post.excerpt | strip_html }}</p>
-  <a href="{{ post.url | prepend: site.baseurl }}">Read more &raquo;</a>
+  <p>
+    <div class="work-item">{{ post.excerpt | strip_html }}</div>
+    <a href="{{ post.url | prepend: site.baseurl }}">Read more &raquo;</a>
+  </p>
 </section>
 {% endfor %}
 
