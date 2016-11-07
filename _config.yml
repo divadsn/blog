@@ -4,8 +4,8 @@ date_format: ordinal
 sass:
   sass_dir: assets/sass
   style: compressed
-url: http://www.codebucket.de/blog
-baseurl: ""
+url: http://www.codebucket.de
+baseurl: "/blog"
 timezone: Europe/Warsaw
 encoding: "utf-8"
 
@@ -26,7 +26,7 @@ collections:
     permalink: /wiki/:path/
 
 # Social media
-disqus_shortname: codebucketblog
+disqus_shortname: codebucketdev
 facebook_username: codebucketdev
 twitter_username: codebucketdev
 linkedin_username:
