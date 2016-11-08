@@ -5,7 +5,7 @@ date: "2016-11-08 20:51"
 category: general
 image: 2016-11-08.jpg
 ---
-I’m so happy to introduce you my new website. It’s not about the fancy cool effects, it is not about shiny design, it’s purely about the content that I would like to share with you. After a long time of working with Java, PHP and JavaScript programming languages and tools like Git I found out that It gives me a massive pleasure to share knowledge, so I decided to run this blog.
+I’m so happy to introduce you my new website. It’s not about the fancy cool effects, it is not about shiny design, it’s purely about the content that I would like to share with you. After a long time of working with Java, PHP and JavaScript programming languages and tools like Git I found out that It gives me a massive pleasure to share my knowledge, so I decided to run this blog.
 
 ## Technically about this website
 
@@ -23,7 +23,7 @@ Jekyll posts and pages can be written in Markdown format as well as HTML. Markdo
 
 ### Static site generation
 
-Previously I’ve used [Blogger](https://www.blogger.com) and [WordPress](https://wordpress.org) to manage my site. Blogger and the hosted offerings of WordPress are ok, but they just don’t give me the flexibility I feel I need to be able to modify my templates and get my site running exactly how I want - there’s always some kind of restriction. This led me to hosting WordPress, which required a LAMP style stack or Node.js on a server somewhere which, while not exactly a problem, was an overhead that I could do without.
+Previously I’ve used [Blogger](https://www.blogger.com) and [WordPress](https://wordpress.org) to manage my site. Blogger and the hosted offerings of WordPress are ok, but they just don’t give me the flexibility I feel I need to be able to modify my templates and get my site running exactly how I want - there’s always some kind of restriction. This led me to hosting WordPress, which required a LAMP style stack on a server somewhere which, while not exactly a problem, was an overhead that I could do without.
 
 Jekyll generates static sites. It processes your pages, posts and templates and produces simple output in the form of HTML files, allowing you to serve them up from almost any kind of web server. [Apache](https://httpd.apache.org), [Lighttpd](https://www.lighttpd.net) and [Nginx](https://www.nginx.com) are all welcome here, or you could just upload your files to an Amazon S3 bucket and serve them directly from there... *Jekyll doesn’t care*.
 
