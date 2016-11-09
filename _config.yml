@@ -48,7 +48,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","LICEN
 
 # Gems
 gems:
-  - jekyll-github-metadata
+  - jekyll-archives
   - rouge
   - jekyll-paginate
   - jekyll-sitemap
