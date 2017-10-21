@@ -14,7 +14,7 @@ title: Codebucket
 tagline: "Programming since 2013"
 description:
   - "**Hey, I'm David Sn**."
-  - "17 years old, Google Code-in 2016 Finalist.\nAlso previously known as Codebucket."
+  - "17 years old, Google Code-in 2016 Finalist.  \nAlso previously known as Codebucket."
 author: Codebucket
 keywords: "Codebucket, Computer, Java, PHP, JS, Developer, Codebucket.de, Jekyll, Blog, Krakow, Poland, Cloud, Productivity, GitHub, Open Source, Hosting, Razex.de, David Sn, divadsn"
 copyright: "2013-2017 David Sn"
@@ -27,13 +27,13 @@ collections:
 
 # Social media
 disqus_shortname: codebucketdev
+github_username: divadsn
 facebook_username:
 twitter_username: divadsn
 linkedin_username:
 instagram_username: divadsn
 pinterest_username:
 flickr_username:
-github_username: divadsn
 feed_icon: rss
 email:
 

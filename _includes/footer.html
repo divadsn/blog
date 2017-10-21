@@ -1,6 +1,9 @@
 <!-- Footer -->
 <footer id="footer">
   <ul class="icons">
+    {% if site.github_username %}
+    <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
+    {% endif %}
     {% if site.facebook_username %}
     <li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
     {% endif %}
@@ -18,9 +21,6 @@
     {% endif %}
     {% if site.flickr_username %}
     <li><a href="https://www.flickr.com/photos/{{ site.flickr_username }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-    {% endif %}
-    {% if site.github_username %}
-    <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
     {% endif %}
     {% if site.email %}
     <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
