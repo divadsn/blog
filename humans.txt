@@ -4,10 +4,10 @@ sitemap:
   exclude: true
 ---
 /* TEAM */
-  Main developer: Codebucket
+  Main developer: David Sn
   Contact: david [at] codebucket.de
-  Twitter: @codebucketdev
-  From: Cracow, Poland
+  Twitter: @divadsn
+  From: Krakow, Poland
 
 /* THANKS */
   Jekyll development: David Forster
