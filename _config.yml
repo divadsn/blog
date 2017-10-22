@@ -4,7 +4,7 @@ date_format: ordinal
 sass:
   sass_dir: assets/sass
   style: compressed
-url: http://www.codebucket.de
+url: https://www.codebucket.de
 baseurl: "/blog"
 timezone: Europe/Warsaw
 encoding: "utf-8"
