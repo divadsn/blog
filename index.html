@@ -7,7 +7,7 @@ layout: default
   <h2>
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
-  <span class="work-item"><i class="fa fa-calendar"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
+  <span class="work-item"><i class="fa fa-calendar fa-fw"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags fa-fw"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
   <p>
     <div class="work-item">{{ post.excerpt | strip_html }}</div>
     <a href="{{ post.url | prepend: site.baseurl }}">Read more &raquo;</a>
