@@ -14,7 +14,7 @@ The story started back in June 2017 when a friend hit me up with a link to a new
   You have to try it, you will surely like it! :wink:
 </blockquote>
 
-And yes, indeed, I've begun to love it. For me the switch wasn't a huge deal tho, as I've already used the [Pixel Launcher](https://play.google.com/store/apps/details?id=com.google.android.apps.nexuslauncher) from Google before. But despite all of this, I started to love the launcher, especially for addtional features like the support of icon packs or blur for example.
+And yes, indeed, I've begun to love it. For me the switch wasn't a huge deal tho, as I've already used the [Pixel Launcher](https://play.google.com/store/apps/details?id=com.google.android.apps.nexuslauncher) from Google before. But despite all of this, I started to love the launcher, especially for additional features like the support of icon packs or blur for example.
 
 Then after using it for a while I noticed some issues and missing features (like the weather in the Google pill), so I've submitted them as a request to [Till Kottmann](https://deletescape.ch), the main developer of Lawnchair. He immediately replied to my request and promised me to add them as soon as possible. Two weeks later, he released [build v1.0.1063](https://github.com/Deletescape-Media/Lawnchair/releases/tag/1.0.1063) with a ton of new features, including the aforementioned Google pill weather widget.
 
@@ -43,9 +43,9 @@ It was still a hot topic since August 2017 and people kept spamming those reques
 
 After a long discussion we came up with the idea to slowly move our deployment to the Google Play Store, while also changing the package name, so our old listing will be available again. No sooner said than done, I began to [massively change the necessary files](https://github.com/Deletescape-Media/Lawnchair/pull/835) and prepare my [private S3 storage for new uploads](https://storage.codebucket.de/) so we could release our first alpha version to the Play Store as soon as possible.
 
-On October the 14th we were [happy to celebrate our first alpha version](https://twitter.com/lawnchairapp/status/919293171330310144) on the Google Play Store. We already hitted 50.000 downloads with around 30.000 active users, and the trend is rising. :tada:
+On October the 14th we were [happy to celebrate our first alpha version](https://twitter.com/lawnchairapp/status/919293171330310144) on the Google Play Store. We already hit 50.000 downloads with around 30.000 active users, and the trend is rising. :tada:
 
 ## So, what's next?
-It doesn't feel like it's the end, but more like the beginning of a new chapter. We have still a lot of work to do before we release the final version. But since most of the team members are back in school or work, the final release will take some time. And as we promised, Lawnchair is and remains free of charge, no pro version or addtional in-app purchase required! If you like our work, then consider buying the [donut donation](https://play.google.com/store/apps/details?id=ch.deletescape.donut) app, it helps us among other things with the maintenance costs for the hosting for example.
+It doesn't feel like it's the end, but more like the beginning of a new chapter. We have still a lot of work to do before we release the final version. But since most of the team members are back in school or work, the final release will take some time. And as we promised, Lawnchair is and remains free of charge, no pro version or additional in-app purchase required! If you like our work, then consider buying the [donut donation](https://play.google.com/store/apps/details?id=ch.deletescape.donut) app, it helps us among other things with the maintenance costs for the hosting for example.
 
 In the end, I would like to thank [Till Kottmann](https://deletescape.ch) and [Christopher Kardas](https://christopherkardas.me) for their support, you guys gave me actually motivation to do something. Also a big thanks goes to the rest of the team, you all are amazing! :hugs:
