@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "My Story about Lawnchair Launcher"
-date: "2017-10-24 10:41"
+date: "2017-10-25 19:44"
 category: open-source
-image: 2017-10-24.jpg
+image: 2017-10-25.jpg
 ---
 You may have probably already heard about ["Lawnchair"](https://lawnchair.info) from several Android news sites or blog posts. It's an open-source launcher based on [Launcher3](https://android.googlesource.com/platform/packages/apps/Launcher3) which brings Google Now and dozens of settings to help personalize your home screen on every device. You also might have read about [Till Kottmann](https://deletescape.ch), the creator behind the launcher, but not about the rest of the team behind Lawnchair Launcher.
 
@@ -19,7 +19,7 @@ And yes, indeed, I've begun to love it. For me the switch wasn't a huge deal tho
 Then after using it for a while I noticed some issues and missing features (like the weather in the Google pill), so I've submitted them as a request to [Till Kottmann](https://deletescape.ch), the main developer of Lawnchair. He immediately replied to my request and promised me to add them as soon as possible. Two weeks later, he released [build v1.0.1063](https://github.com/Deletescape-Media/Lawnchair/releases/tag/1.0.1063) with a ton of new features, including the aforementioned Google pill weather widget.
 
 ## The moment of attention
-It was in August 2017, when Till wanted to release Lawnchair to the Google Play Store, but realized that someone have stolen his listing with the same package name. When he knew he would need help from Google, he contacted me immediately to explain the situation to me, as he knew that I could help him in getting contact to Google and solving the legal issue. I was abroad at this time for 2 weeks school of English, but it was not a problem for me to call people in different offices at Google around to world in order to solve his issue.
+It was in August 2017, when Till wanted to release Lawnchair to the Google Play Store, but realized that [someone have stolen his listing](https://t.me/lawnchairchannel/175) with the same package name. When he knew he would need help from Google, he contacted me immediately to explain the situation to me, as he knew that I could help him in getting contact to Google and solving the legal issue. I was abroad at this time for 2 weeks school of English, but it was not a problem for me to call people in different offices at Google around to world in order to solve his issue.
 
 ### So, did you have succeed? :thinking:
 Sadly, after many calls, a friend explained to me that it's impossible to solve that over the phone or by e-mail and that the best chance would be to go to the Google office in Zurich, as Till is from Switzerland. But unfortunately Till has not yet found time to go to Zurich, so they had to find another solution...
@@ -41,6 +41,11 @@ I would like to thank here [Rawi666](https://github.com/Rawi666) for his contrib
 ## A new solution had to be found
 It was still a hot topic since August 2017 and people kept spamming those requests on GitHub and Telegram along, so we had to overthink our current versioning system.
 
-After a long discussion I came up with the idea to slowly move our deployment to the Google Play Store, while also changing the package name, so our old listing will be available again. No sooner said than done, I began to [massively change the necessary files](https://github.com/Deletescape-Media/Lawnchair/pull/835) and prepared my [private S3 storage for new uploads](https://storage.codebucket.de/) so we could release our first alpha version to the Play Store as soon as possible.
+After a long discussion we came up with the idea to slowly move our deployment to the Google Play Store, while also changing the package name, so our old listing will be available again. No sooner said than done, I began to [massively change the necessary files](https://github.com/Deletescape-Media/Lawnchair/pull/835) and prepare my [private S3 storage for new uploads](https://storage.codebucket.de/) so we could release our first alpha version to the Play Store as soon as possible.
 
-On October the 14th we were [happy to celebrate our first alpha version](https://twitter.com/lawnchairapp/status/919293171330310144) on the Google Play Store. We already hitted 50.000 downloads with around 30.000 active users, and the trend is rising. But this isn't the end for me.  
+On October the 14th we were [happy to celebrate our first alpha version](https://twitter.com/lawnchairapp/status/919293171330310144) on the Google Play Store. We already hitted 50.000 downloads with around 30.000 active users, and the trend is rising. :tada:
+
+## So, what's next?
+It doesn't feel like it's the end, but more like the beginning of a new chapter. We have still a lot of work to do before we release the final version. But since most of the team members are back in school or work, the final release will take some time. And as we promised, Lawnchair is and remains free of charge, no pro version or addtional in-app purchase required! If you like our work, then consider buying the [donut donation](https://play.google.com/store/apps/details?id=ch.deletescape.donut) app, it helps us among other things with the maintenance costs for the hosting for example.
+
+In the end, I would like to thank [Till Kottmann](https://deletescape.ch) and [Christopher Kardas](https://christopherkardas.me) for their support, you guys gave me actually motivation to do something. Also a big thanks goes to the rest of the team, you all are amazing! :hugs:
