@@ -21,7 +21,7 @@ Then after using it for a while I noticed some issues and missing features (like
 ## The moment of attention
 It was in August 2017, when Till wanted to release Lawnchair to the Google Play Store, but realized that [someone have stolen his listing](https://t.me/lawnchairchannel/175) with the same package name. When he knew he would need help from Google, he contacted me immediately to explain the situation to me, as he knew that I could help him in getting contact to Google and solving the legal issue. I was abroad at this time for 2 weeks school of English, but it was not a problem for me to call people in different offices at Google around to world in order to solve his issue.
 
-### So, did you have succeed? :thinking:
+### So, were you successful? :thinking:
 Sadly, after many calls, a friend explained to me that it's impossible to solve that over the phone or by e-mail and that the best chance would be to go to the Google office in Zurich, as Till is from Switzerland. But unfortunately Till has not yet found time to go to Zurich, so they had to find another solution...
 
 ## My part in the Lawnchair team
