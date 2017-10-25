@@ -27,7 +27,7 @@ Sadly, after many calls, a friend explained to me that it's impossible to solve 
 ## My part in the Lawnchair team
 After my "success" in helping them with their legal issue, I started contributing to Lawnchair on GitHub by answering to open issues and completing the wiki with new FAQ entries, like giving answer to [why the weather widget is showing different information than Google Now](https://github.com/Deletescape-Media/Lawnchair/wiki/FAQ/474329417b04ddbcaa0e8d9496b3f2c742685d58). I also [added an issue template](https://github.com/Deletescape-Media/Lawnchair/commit/7df7bd15eafc86b57ac2f77e578bd52b55461383#diff-1a1c3dd142f76a5fad803a0c52839881) to help new people in submitting their bug reports to the Lawnchair team. With the time tho I was more interested in actual contributions to the code itself, so I started reviewing the code and to fix reported bugs.
 
-This was the moment I started to became finally a part of the Lawnchair team. :heart:
+This was the moment I started to became finally a part of the Lawnchair team. :heart:  
 Here is a sample of the contributions I did in the meanwhile:
 
  - [Add support for animated clock icon on MIUI](https://github.com/Deletescape-Media/Lawnchair/pull/715)
