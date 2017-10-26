@@ -48,8 +48,8 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","LICEN
 
 # Gems
 gems:
-  - jekyll-archives
   - rouge
+  - jekyll-last-modified-at
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed

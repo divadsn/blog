@@ -12,6 +12,7 @@
 
     {% include twittercard.html %}
     {% include opengraph.html %}
+    {% include article.html %}
     {% include standard.html %}
     {% include styles.html %}
   </head>
@@ -27,6 +28,9 @@
             {% include readingtime.html %}
           </p>
         </header>
+        <div class="image fit" style="display: none">
+          <img src="{{ "/images/" | prepend: site.baseurl | prepend: site.url }}{{ page.image }}" alt="{{ page.title }}" />
+        </div>
         <section>
           {{ content }}
         </section>

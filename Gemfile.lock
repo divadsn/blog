@@ -67,13 +67,13 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-archives (2.1.1)
-      jekyll (>= 2.4)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-feed (0.3.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
+    jekyll-last-modified-at (0.3.4)
+      jekyll
     jekyll-mentions (0.2.1)
       html-pipeline (~> 1.9.0)
       jekyll (~> 2.0)
@@ -139,7 +139,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-archives
+  jekyll-last-modified-at
   rouge
 
 BUNDLED WITH
