@@ -19,12 +19,6 @@ author: "David Sn"
 keywords: "Codebucket, Computer, Java, PHP, JS, Developer, Codebucket.de, Jekyll, Blog, Krakow, Poland, Cloud, Productivity, GitHub, Open Source, Hosting, Razex.de, David Sn, divadsn"
 copyright: "2013-2017 David Sn"
 
-# Sitemap settings
-collections:
-  wiki:
-    output: true
-    permalink: /wiki/:path/
-
 # Social media
 disqus_shortname: codebucketdev
 github_username: divadsn
