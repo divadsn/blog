@@ -5,7 +5,7 @@ date: "2017-12-24 03:50"
 category: contest
 image: 2017-12-24.jpg
 ---
-This year I'm taking part in Google Code-in for the second and last time, as some of you might have already noticed that I will be 18 years old next year. But it doesn't keep me from sharing my experiences I gathered last year in this post, especially useful tips for newcomers who might want to join Google Code-in during this Christmas season. This guide is not only for Google Code-in beginners, but open-source in general.
+This year I'm taking part in Google Code-in for the second and last time, as some of you might have already noticed that I will be 18 years old next year. However, it doesn't keep me from sharing my experiences I gathered last year in this post, especially useful tips for newcomers who might want to join Google Code-in during this Christmas season. This guide is not only for Google Code-in beginners, but open-source in general.
 
 Note: I won't go here in detail on how the contest works, for that I suggest [reading this page](https://developers.google.com/open-source/gci/how-it-works).
 
@@ -46,14 +46,14 @@ When it comes to online chat, I think [the etiquette](https://en.wikipedia.org/w
 **Tl;dr: Always read the task description twice, you will see the requirements at the bottom of the description.**
 
 ### Cloud IRC vs. IRC bouncer and why it's good
-You might also noticed in the meantime that all the messages which have been sent in that time are gone when closing the IRC client. And sadly, this is not a bug, it's actually how IRC works. But there are solutions on how to avoid that situation in the future: IRC bouncer ([ZNC](https://wiki.znc.in/ZNC)) or cloud IRC webclient (["The Lounge"](https://thelounge.github.io/))
+You might also noticed in the meantime that all the messages which have been sent in that time are gone when closing the IRC client. And sadly, this is not a bug, it's actually how IRC works. However, there are solutions on how to avoid that situation in the future: IRC bouncer ([ZNC](https://wiki.znc.in/ZNC)) or cloud IRC webclient (["The Lounge"](https://thelounge.github.io/))
 
 #### Which is better for me?
 It depends. Both options require you to have a Linux VPS in order to host it yourself. But you can also host it on a Raspberry Pi! ZNC should work on every Raspberry Pi beginning with the model B+, while "The Lounge" will only work with the Raspberry Pi 2 or higher since Node.js requires a lot of RAM.
 
 Basically "The Lounge" is the easiest one to setup in my opinion, just download the deb package from [GitHub](https://github.com/thelounge/lounge/releases), install and launch it in the background, that's it. Now you only need to finish the installation by opening the address of your VPS in a browser of your choice and following the steps on the IRC network setup page.
 
-But if you want to install ZNC then I recommend you [checking out their wiki](https://wiki.znc.in/ZNC), it has everything you will need to get ZNC installed on your server and configured to your own needs.
+However, if you want to install ZNC then I recommend you [checking out their wiki](https://wiki.znc.in/ZNC), it has everything you will need to get ZNC installed on your server and configured to your own needs.
 
 #### What are you using personally?
 I am using both, "The Lounge" as my IRC client and ZNC as fallback if the client goes offline for whatever reason.
@@ -71,7 +71,7 @@ Keep in mind that your mentors are also humans who eventually leave their comput
 **Tl;dr: Mentors have up to 36 hours time to review your submission, don't worry.**
 
 ### Try to ping only when it's really necessary
-Generally it's not wrong to ask your mentor first when you are stuck with your task, but sometimes a quick search on Google could have helped you too. I rather keep pinging my mentors only in a situation when I don't understand the task description or when I am unsure about my current solution, so I can discuss with them.
+Generally it's not wrong to ask your mentor first when you are stuck with your task, however sometimes a quick search on Google could have helped you too. I rather keep pinging my mentors only in a situation when I don't understand the task description or when I am unsure about my current solution, so I can discuss with them.
 
 **Tl;dr: Uncle Google is your best friend :wink:**
 
