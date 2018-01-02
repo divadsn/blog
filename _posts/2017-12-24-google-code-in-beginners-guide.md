@@ -15,9 +15,9 @@ The entire contest is hosted by Google and takes place online from 28 November t
 Keep in mind that the entire contest runs on [the dashboard](https://codein.withgoogle.com/dashboard/), especially your tasks and communication with your mentors, so creating a bookmark for faster access wouldn't be a bad idea. :wink:
 
 ### Fill out your parental consent online!
-Last year I made a mistake by assuming that the online verification process will not work. That's why I decided to let my parents fill out the classic way, by printing out the parental consent and letting them to sign those papers in order to scan them back and send it onto the dashboard for verification.
+Last year I made a mistake by assuming that the online verification process will not work. That's why I decided to let my parents fill out the classic way, by printing out the parental consent and letting them sign those papers in order to scan them back and send it onto the dashboard for verification.
 
-And guess what? I had to redo everything as my parents have signed it wrongly, so in the end I just wasted 3 days on such a dumb thing, ugh. That's why I went with the online verification method this year and I was surprised how fast it went, my parental consent got accepted 2 hours after completing my first task, yay!
+And guess what? I had to redo everything as my parents had signed it wrongly, so in the end I just wasted 3 days on such a dumb thing, ugh. That's why I went with the online verification method this year and I was surprised how fast it went, my parental consent got accepted 2 hours after completing my first task, yay!
 
 **Tl;dr: Online verification is much more faster and reliable than offline, you will thank me later.**
 
@@ -58,7 +58,7 @@ However, if you want to install ZNC then I recommend you [checking out their wik
 #### What are you using personally?
 I am using both, "The Lounge" as my IRC client and ZNC as fallback if the client goes offline for whatever reason.
 
-**Tl;dr: Install it if you have a Linux VPS or a Raspberry Pi (or other board), especially if you want to be 24/7.**
+**Tl;dr: Install it if you have a Linux VPS or a Raspberry Pi (or other board), especially if you want to be online 24/7.**
 
 ### Patience is very important
 There is nothing more to say than a good old idiom:
@@ -77,16 +77,16 @@ Generally it's not wrong to ask your mentor first when you are stuck with your t
 
 ## 3. Contributions
 ### Issue trackers in common
-When working with code you will mostly find your task details on a issue tracker like GitHub or Phabricator, but also tasks in outreach or quality assurance will be done on those as well. Usually you will find a link to their issue tracker in the task description and the sign up on those is also very easy, just make sure you use the same e-mail address as on Google Code-in during the registration, it will make things easier for your mentors.
+When working with code you will mostly find your task details on an issue tracker like GitHub or Phabricator, but also tasks in outreach or quality assurance will be done on those as well. Usually you will find a link to their issue tracker in the task description and the sign up on those is also very easy, just make sure you use the same e-mail address as on Google Code-in during the registration, it will make things easier for your mentors.
 
-Also you should claim your task on the issue tracker, so other contributors won't work on that unnecessarily. I already had a situation where a friend messaged me on IRC that he was already working on that issue, but he didn't know that because I haven't claimed the task. (Greetings to you, Albert221!)
+Also you should claim your task on the issue tracker, so other contributors won't work on that unnecessarily. I already had a situation where a friend messaged me on IRC that he was already working on that issue, but he didn't know that because I hadn't claimed the task. (Greetings to you, Albert221!)
 
 **Tl;dr: Issue trackers are the main platform for communication with other contributors.**
 
 ### Setting up git properly
-It's the most important tool when working with code, no matter which organization, it's used on every open-source project worldwide. Without git it would be nearly impossible to work simutanously on the same code without having to copy and paste everytime someone updated a file you have changed too.
+It's the most important tool when working with code, no matter which organization, it's used on most open-source project worldwide. Without git it would be nearly impossible to work simutanously on the same code without having to copy and paste everytime someone updated a file you have changed too.
 
-It basically keeps a track of every change you have done, so it immediately knows which changes in files needs to be applied in order to have your local code updated with the remote repository and vice versa for other peoples changes. Also it allows maintainers to review your changes, so they can whether decide if your change will work with the other code or not and they can give you comments so you can improve your change in order to have the change accepted. And they can also easily revert your change when it was causing some trouble later.
+It basically keeps a track of every change you have done, so it immediately knows which changes in files needs to be applied in order to have your local code updated with the remote repository and vice versa for other people's changes. Also it allows maintainers to review your changes, so they can decide if your change will work with the other code or not and they can give you comments so you can improve your change in order to have the change accepted. And they can also easily revert your change when it was causing some trouble later.
 
 That's why you should also setup your git properly, which means your commits will include the right author information. To do this, you need to execute the following 2-3 commands if you never done that:
 ```
@@ -142,7 +142,7 @@ No matter how many tasks you have solved, the idea of Google Code-in is to intro
 
 Even when you have not won a prize, you are still a winner and your prize is the knowledge you gained during the contest. And yes, I do look like someone who has already gained enough of knowledge, but I have also gained new knowledge last year and even this year, you can never learn enough.
 
-I'm happy to see how new students are interested in open-source, since my classmates are completely uninterested in computer science, even though they are in a class with computer science. :unamused:
+I'm happy to see how new students are interested in free and open-source software, since my classmates are completely uninterested in computer science, even though they are in a class with computer science. :unamused:
 
 Merry Christmas and wish you best luck! :christmas_tree:
 
