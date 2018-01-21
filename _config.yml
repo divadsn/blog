@@ -40,8 +40,8 @@ paginate_path: "/page/:num/"
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","LICENSE"]
 
-# Gems
-gems:
+# Plugins
+plugins:
   - rouge
   - jekyll-last-modified-at
   - jekyll-paginate
