@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Life and Expectations"
-date: "2018-04-17 13:37"
+date: "2018-06-15 13:37"
 category: thoughts
-image: 2018-04-17.jpg
+image: 2018-06-15.jpg
 ---
 A long time ago I wrote about my life here and a lot has happened since that moment. Anyone who may be following me on Twitter knows that in the last few months I have often felt bad in my life, from depressions to suicidal thoughts. I was on the verge of despair, everything seemed to me to be useless. But from the outside nobody could guess what was going on with me, many thought I had become lazy or would not like to continue working on some projects.
 
@@ -29,4 +29,21 @@ You never know when it's gonna happen for real. This was also the case with me, 
 Maybe this didn't bring me so many friends, but at least I learned to know some with whom I still understand well and are always there, no matter at what times. They helped me a lot and even if they live far away, we have fun over the Internet and hope to meet soon in real life.
 
 ### "Don't fear the unknown"
-This quote means more to me than just one thing. First of all it will remind me that I would never have known the love of my life if I hadn't approached her when I was dancing.
+This quote means more to me than just one thing. First of all it will remind me that I would never have known the love of my life if I hadn't approached her when I was dancing. I really don't know what it would have been like if I hadn't done that, because I never had the guts to approach her at school before. Anyway, I didn't expect us to ever get together then, but now it's happened and I'm very happy about it. It may sound like a fairy tale, but it has become reality now.
+
+I honestly had many fears before we were in a relationship. Most of them were fears from the past, from my previous relationships. Even when I no longer have any reason to be afraid, some fear still remains in the background of my mind and sometimes drags me down too. Sometimes you just need to trust yourself and give the other person a chance to prove that your fears are wrong.
+
+But just because it didn't work out for you then in the past, it doesn't have to mean that it will always be like that. So keep this in your mind if you see a chance, but somehow you are afraid to do it. I mean, even if you got rejected in the end or it didn't went as you have expected, why don't you just try it huh?
+
+### Love is not only happiness
+Now it starts to be emotional. Well, like really. Past experiences or memories might sound like something worth remembering forever, but not when the person you shared those isn't anymore the same as it was in the past. While someone who has recently broken up could search and look for someone else to get his or her relationship past behind, some might just think that they will now finally be living a single life. But things can suddenly change, unexpectedly, oh well. This is where expectations are unpredictable. To be honest, after I got rejected a year ago, I was looking for a girl so desperate, that in the end I just gave up in October 2017 and lived alone. Instead I just focused back on having friends, as I was already lost in school due to the fact that I have changed classes twice.
+
+Moving forward in time, it's February 2018 and Valentines Day was coming up, so I just had an idea with a friend to send some stupid valentines card along with a link to some dead memes, as a response to the idea that some friends from the higher class had the previous year. And while it gave me some joy in my life, it has also drawn attention to us, but in a positive way. 
+
+### But wait, you said "some joy", what was happening?
+In December 2017 I was attending Google Code-in, as some of you might remember, and I was working hard as always, but also because it was my last time I could participate. With that in mind I was also working with the goal of maybe becoming a Grand Prize Winner, as I wanted to visit new places and have a break from my daily boring life back then. Meanwhile also people have started to annoy me with their parties, as they were talking about them loud in class but no one has ever invited me to one of those parties, so thanks.
+
+Then in January 2018 after New Year's Eve I had probably the biggest depression of my life, I became Google Code-in Finalist again and missed my goals and had enough of my life, I just had no reason to live anymore and started drinking more...
+
+## Winterbreak 2018
+To be continued...
